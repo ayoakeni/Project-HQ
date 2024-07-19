@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -77,6 +80,9 @@ nav ul a:hover{
 }
 .hero h2{
   font-size: 80px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-style: normal;
   color: #222222;
   margin-bottom: 20px;
 }
@@ -88,6 +94,15 @@ nav ul a:hover{
   color: #5E5E5E;
   width: 432px;
   line-height: 28px;
+  margin-bottom: 45px;
+}
+.hero-text button{
+  color: #FFFFFF;
+  background-color: #222222;
+  padding: 10px 24px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
 .hero h2{
   margin-bottom: 1rem;
