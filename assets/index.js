@@ -29,10 +29,10 @@ document.addEventListener('DOMContentLoaded', function () {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
       },
-      // loop: true,
-      // autoplay: {
-      //   delay: 3000,
-      // },
+      loop: true,
+      autoplay: {
+        delay: 7000,
+      },
       // pagination: {
       //     el: '.swiper-pagination',
       //     clickable: true,

@@ -47,6 +47,8 @@ nav ul {
   padding: 0;
 }
 nav .fdf a{
+  font-size: 14px;
+  font-weight: 800px;
   color: #222222;
   text-decoration: none;
   padding: 10px 24px;
@@ -55,6 +57,8 @@ nav .fdf a{
   cursor: pointer;
 }
 nav .log-sign a{
+  font-size: 14px;
+  font-weight: 800px;
   color: #222222;
   text-decoration: none;
   border: 1px solid #222222;
@@ -95,6 +99,7 @@ nav ul a:hover{
 }
 .hero-text{
   width: 100%;
+  height: auto;
 }
 .hero-1 h2, .hero-2 h2{
   font-size: 62px;
@@ -122,12 +127,13 @@ nav ul a:hover{
   line-height: 28px;
   margin-bottom: 45px;
 }
-.hero-text button{
+.hero-text a{
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 800px;
   line-height: 19px;
   background-color: #222222;
+  text-decoration: none;
   padding: 10px 24px;
   border-radius: 6px;
   border: none;
