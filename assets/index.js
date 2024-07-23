@@ -11,13 +11,13 @@ window.addEventListener('scroll', function() {
   } else {
     // Scroll up
     navbar.style.top = '0';
-    navbar.style.background = 'white';
+    // navbar.style.background = 'white';
   }
 
-  if (scrollTop === 0) {
-    // At the top of the page
-    navbar.style.background = 'transparent';
-  }
+  // if (scrollTop === 0) {
+  //   // At the top of the page
+  //   navbar.style.background = 'transparent';
+  // }
 
   lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
 });
@@ -25,10 +25,10 @@ window.addEventListener('scroll', function() {
 // Hero
 document.addEventListener('DOMContentLoaded', function () {
   var swiper = new Swiper('.swiper-container', {
-      navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-      },
+      // navigation: {
+      //     nextEl: '.swiper-button-next',
+      //     prevEl: '.swiper-button-prev',
+      // },
       loop: true,
       autoplay: {
         delay: 7000,
