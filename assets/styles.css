@@ -2,18 +2,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
 }
 html{
   scroll-behavior: smooth;
 }
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #FAFAFA;
   overflow-x: hidden;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 12px;
 }
 ::-webkit-scrollbar-thumb {
@@ -35,7 +35,7 @@ body {
 }
 ::-webkit-scrollbar-button:vertical:decrement {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23D2AA46" d="M12 4l8 8H4z"/></svg>');
-}
+} */
 header {
   position: fixed;
   top: 0;
@@ -124,16 +124,14 @@ nav ul a:hover{
   height: 500px;
   padding: 7rem;
   background-image: url(./images/engineer.png);
-  background-size: contain;
-  background-position: calc(100%);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .hero-4 {
   height: 500px;
   padding: 7rem;
   background-image: url(./images/lighthand.png);
-  background-size: contain;
-  background-position: calc(100%);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .hero-text{
@@ -223,13 +221,30 @@ nav ul a:hover{
 }
 .list{
   display: flex;
+  width: 100%;
 }
 .list-1{
+  width: 50%;
+  padding: 7rem;
   background-color: #FFFFFF;
 }
 .list-2{
+  width: 50%;
+  padding: 7rem;
   background-color: #FAF3E6;
 }
+.list span{
+  font-size: 24px;
+  font-weight: 700;
+  color:#4B4B4B;
+  line-height: 45px;
+}
+.list h2{
+  font-size: 35px;
+  font-weight: 700;
+  color:#4B4B4B;
+}
+
 /* .news{
   padding: 73px 0px;
   background: #F3F3F3;
@@ -414,7 +429,7 @@ footer {
   margin-bottom: 0.5rem;
 }
 .quick-links a, .contact-links a, .contact-links li {
-  font-size: 20px;
+  font-size: 18px;
   color: #333;
   text-decoration: none;
 }
