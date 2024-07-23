@@ -115,7 +115,23 @@ nav ul a:hover{
 .hero-2 {
   height: 500px;
   padding: 7rem;
-  background-image: url(./images/landing-page.png);
+  background-image: url(./images/workers.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-3 {
+  height: 500px;
+  padding: 7rem;
+  background-image: url(./images/engineer.png);
+  background-size: contain;
+  background-position: calc(100%);
+  background-repeat: no-repeat;
+}
+.hero-4 {
+  height: 500px;
+  padding: 7rem;
+  background-image: url(./images/lighthand.png);
   background-size: contain;
   background-position: calc(100%);
   background-repeat: no-repeat;
@@ -124,7 +140,7 @@ nav ul a:hover{
   width: 100%;
   height: auto;
 }
-.hero-1 h2, .hero-2 h2{
+.hero-1 h2, .hero-2 h2, .hero-3 h2, .hero-4 h2{
   font-size: 62px;
   font-family: "Libre Baskerville", serif;
   font-weight: bolder;
@@ -133,17 +149,17 @@ nav ul a:hover{
   color: #222222;
   margin-bottom: 1rem;
 }
-.hero-1 span, .hero-2 span{
+.hero-1 span, .hero-2 span, .hero-3 span, .hero-4 span{
   color: #D2AA46;
 }
-.hero-1 .hero-text p{
+.hero-1 .hero-text p, .hero-2 .hero-text p{
   font-size: 20px;
   color: #5E5E5E;
   width: 690px;
   line-height: 28px;
   margin-bottom: 45px;
 }
-.hero-2 .hero-text p{
+.hero-3 .hero-text p, .hero-4 .hero-text p{
   font-size: 20px;
   color: #5E5E5E;
   width: 432px;
