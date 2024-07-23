@@ -13,6 +13,29 @@ body {
   background-color: #FAFAFA;
   overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #D2AA46;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-button {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+::-webkit-scrollbar-button:hover {
+  background-color: #e6d5ae;
+}
+::-webkit-scrollbar-button:vertical:increment {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23D2AA46" d="M12 20l-8-8h16z"/></svg>');
+}
+::-webkit-scrollbar-button:vertical:decrement {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23D2AA46" d="M12 4l8 8H4z"/></svg>');
+}
 header {
   position: fixed;
   top: 0;
@@ -181,6 +204,15 @@ nav ul a:hover{
   padding: 15px 30px;
   line-height: 55px;
   cursor: pointer;
+}
+.list{
+  display: flex;
+}
+.list-1{
+  background-color: #FFFFFF;
+}
+.list-2{
+  background-color: #FAF3E6;
 }
 /* .news{
   padding: 73px 0px;
